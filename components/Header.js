@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Platform } from 'react-native';
 
 import Colors from '../constants/Colors';
 import BodyText from './BodyText';
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 90,
     paddingTop: 32,
-    backgroundColor: Colors.primary,
+    backgroundColor: Platform.OS === 'android' ? Colors.primary : 'white',
     alignItems: 'center',
     justifyContent: 'center'
   }
