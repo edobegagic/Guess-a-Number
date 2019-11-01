@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "RN-Vjezba02",
+    "name": "Guess-a-Number",
     "slug": "RN-Vjezba02",
     "privacy": "public",
     "sdkVersion": "35.0.0",
@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "number game (final)",
+    "githubUrl": "https://github.com/edobegagic/Guess-a-Number"
   }
 }
